@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/624579a7a2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Calculator test</h1>
+    <div id="calculator">
+        <header>
+            <div class="top">
+            <i class="fa-solid fa-bars"></i>
+            <span>Standard</span>
+            <i class="fa-solid fa-calculator"></i>
+            </div>
+            <i class="fa-solid fa-clock-rotate-left"></i>
+        </header>
+        <input id="display" readonly>
+        <div class="little">
+            <li>MC</li>
+            <li>MR</li>
+            <li>M+</li>
+            <li>M-</li>
+            <li>MS</li>
+            <li>M</li>
+        </div>
+        <div id="keys">
+            <button onclick="add('%')" class="special">%</button>
+            <button onclick="add(ce)" class="special">CE</button>
+            <button onclick="add(c)" class="special">C</button>
+            <button onclick="add('/')" class="special">/</button>
+            <button onclick="add(7)">7</button>
+            <button onclick="add(8)">8</button>
+            <button onclick="add(9)">9</button>
+            <button onclick="add(x)" class="special">x</button>
+            <button onclick="add(4)">4</button>
+            <button onclick="add(5)">5</button>
+            <button onclick="add(6)">6</button>
+            <button onclick="add()" class="special">-</button>
+            <button onclick="add(1)">1</button>
+            <button onclick="add(2)">2</button>
+            <button onclick="add(3)">3</button>
+            <button onclick="add('+')" class="special">+</button>
+            <button onclick="add(x^2)">x^2</button>
+            <button onclick="add(0)">0</button>
+            <button onclick="add('.')">.</button>
+            <button onclick="calculate()" class="specialone">=</button>
+        </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
