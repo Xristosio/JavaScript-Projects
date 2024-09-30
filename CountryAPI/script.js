@@ -50,3 +50,19 @@ function getCountryNeighbor(country) {
 }
 
 getCountryNeighbor('greece');
+
+//getCountryNeighbor('greece');
+
+// const fountry = function (country) {
+//   fetch(`https://restcountries.com/v3.1/name/${country}`)
+//     .then(response => {
+//       if (!response.ok) {
+//         alert('API connected but cant fetch the data');
+//       } else {
+//         return response.json();
+//       }
+//     })
+//     .then(data => getCountryNeighbor(country));
+// };
+
+// fountry('greece');
